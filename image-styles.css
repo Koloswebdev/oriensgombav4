@@ -17,3 +17,8 @@
     height: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .oriens-header-image{
+        width: 40%;
+    }
+}
