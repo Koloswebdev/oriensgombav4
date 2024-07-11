@@ -1,0 +1,41 @@
+
+
+.vasarlas-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.aru-leiras{
+    width: 70%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+.gomba-vasarlas-image{
+    width: 30%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.gomba-vasarlas-image img{
+    width: 100%;
+    height: 100%;
+}
+.gomba-ár{
+    padding: 0.5% 2%;
+    background-color: lightgray;
+}
+@media only screen and (max-width: 600px){
+    .vasarlas-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .gomba-vasarlas-image{
+        width: 70%;
+        margin-left: 1%;
+        margin-bottom: 15%;
+        margin-top: 1%;
+    }
+}

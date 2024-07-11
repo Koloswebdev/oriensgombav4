@@ -1,0 +1,19 @@
+.oriens-header{
+    width: 97%;
+    margin: 1% 1%;
+}
+.oriens-header-image{
+    width: 15%;
+}
+.oriens-banner{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.oriens-banner-image{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
